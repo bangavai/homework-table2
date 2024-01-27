@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  background-color: black;
+}
+table {
+  margin: auto;
+  border: 7px solid white;
+  border-collapse: collapse;
+  font-family: lato;
+  color: white;
+  text-align: left;
+}
+thead th {
+  border: 3px solid white;
+  padding: 1rem 6rem 1rem 1rem;
+  font-size: x-large;
+  background-color: #86006f;
+}
+
+tbody td {
+  border: 3px solid white;
+  padding: 1rem 6rem 1rem 1rem;
+  font-size: large;
+  /* background-color: #f37ecf; */
+}
+td.color1 {
+  background-color: #f37ecf;
+}
+td.color {
+  background-color: #af5593;
+}
